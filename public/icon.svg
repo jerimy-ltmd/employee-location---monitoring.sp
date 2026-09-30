@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2548" />
+      <stop offset="100%" stop-color="#091D3C" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F4C95D" />
+      <stop offset="100%" stop-color="#E0B12C" />
+    </linearGradient>
+  </defs>
+  <!-- Background Rounded Shield / Tile -->
+  <rect width="512" height="512" rx="110" fill="url(#bg)" stroke="#E0B12C" stroke-width="8"/>
+  
+  <!-- Radar Circles -->
+  <circle cx="256" cy="230" r="170" fill="none" stroke="#E0B12C" stroke-width="3" stroke-dasharray="8 8" opacity="0.4" />
+  <circle cx="256" cy="230" r="115" fill="none" stroke="#E0B12C" stroke-width="4" opacity="0.6" />
+  
+  <!-- Classical Government Building Silhouette / Portico -->
+  <path d="M160 360 L352 360 L352 375 L160 375 Z" fill="url(#gold)" />
+  <path d="M175 345 L337 345 L337 355 L175 355 Z" fill="url(#gold)" />
+  <!-- Pillars -->
+  <rect x="185" y="270" width="22" height="70" rx="3" fill="url(#gold)" />
+  <rect x="220" y="270" width="22" height="70" rx="3" fill="url(#gold)" />
+  <rect x="270" y="270" width="22" height="70" rx="3" fill="url(#gold)" />
+  <rect x="305" y="270" width="22" height="70" rx="3" fill="url(#gold)" />
+  <!-- Pediment (Triangle) -->
+  <polygon points="160,265 352,265 256,205" fill="url(#gold)" />
+  
+  <!-- Location Pin with Glowing Radar Center -->
+  <path d="M256 90 C210 90 174 126 174 172 C174 228 256 310 256 310 C256 310 338 228 338 172 C338 126 302 90 256 90 Z" fill="#E0B12C" opacity="0.9" />
+  <circle cx="256" cy="165" r="28" fill="#091D3C" />
+  <circle cx="256" cy="165" r="14" fill="#34D399" />
+  
+  <!-- Brand text badge -->
+  <rect x="136" y="415" width="240" height="42" rx="21" fill="rgba(224, 177, 44, 0.15)" stroke="#E0B12C" stroke-width="2"/>
+  <text x="256" y="442" fill="#F4C95D" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="19" text-anchor="middle" letter-spacing="3">STAFF MONITOR</text>
+</svg>

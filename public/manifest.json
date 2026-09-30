@@ -1,0 +1,20 @@
+{
+  "id": "/",
+  "name": "Employee Location & Monitoring",
+  "short_name": "StaffMonitor",
+  "description": "Enterprise employee location tracking, geofencing, real-time communication, and building monitoring platform.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#091D3C",
+  "theme_color": "#091D3C",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
